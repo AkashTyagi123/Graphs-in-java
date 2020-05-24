@@ -4,9 +4,15 @@ import java.io.*;
 1.Adjency Matrix:
 It is good to determine whether a edge exist between two nodes
 Space complexity is O(v^2)
-
+To know if two nodes are connected:O(1)
+To know the neighbors of a node O(V)
+This type of representation is good for dense graph. For sparse graph we waste a lot of space
+Adding a new vertex takes O(1) time
 2.Adjency List
 It is good in term of space its space complexity is O(V+E)
+to know if two node are connected O(V)
+to know the neighbors the complexit is O(v)
+adding a new node take O(V).
 */
 class Graph{
   private HashMap<Integer,ArrayList<Integer>> hm;
