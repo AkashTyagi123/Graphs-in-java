@@ -1,3 +1,7 @@
+/*
+Dijkstra algorithm does not work for negative weight cycle. To do the same stuff in a graph with negative weight cycle we use 
+Bellman ford Algorithm.
+*/
 import java.util.*;
 
 class Dijkstra{
